@@ -6,6 +6,10 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var testNavigationBar: UINavigationBar!
+    
+    @IBOutlet weak var testImageView: UIImageView!
+    
     //最初からあるメソッド
     override func viewDidLoad() {
         super.viewDidLoad()

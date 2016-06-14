@@ -47,6 +47,10 @@
                             <constraint firstAttribute="trailing" secondItem="tVP-lE-yB7" secondAttribute="trailing" id="xg4-73-IfV"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="testImageView" destination="tVP-lE-yB7" id="c5W-tQ-J7D"/>
+                        <outlet property="testNavigationBar" destination="TEm-cC-AcX" id="lwk-ld-icz"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
